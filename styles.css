@@ -213,16 +213,8 @@ html{
   margin-top:5px;
 }
 
-@media screen and (max-width : 950px)
-{
-#navbar{
-  display:flex;
-  flex-wrap:wrap;
-}
-
-#project{
-  display:flex;
-  flex-wrap:wrap;
-}
-
-}
+@media only screen and (max-width:705px) {
+  nav{
+      display:none;
+  }
+  }
