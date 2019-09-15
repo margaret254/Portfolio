@@ -123,19 +123,16 @@
   }
 
   #project1{
-    flex:50%;
+    flex:40%;
     padding:5px;
   }
 
   #project2{
-    flex:50%;
+    flex:40%;
     padding: 5px;
   }
 
-  #project1 > img{
-    width:800px;
-    height:800px;
-  }
+  
 
   #project > h2{
     text-align: center;
@@ -205,7 +202,7 @@
   margin-top:5px;
 }
 
-@media only screen and (min-width:806px) and (max-width:1507px) {
+@media only screen and (min-width:240px) and (max-width:768px) {
   .navbar{
       display:none;
   }
