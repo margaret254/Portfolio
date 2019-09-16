@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .navbar{
     width:100%;
     position:fixed;
@@ -13,8 +17,9 @@
       list-style-type: none;
       margin: 0;
       padding:0;
-      overflow:hidden;
+      overflow-x:hidden;
       background-color:#5dade2;
+      width:100%;
   }
   
   li{
@@ -25,7 +30,7 @@
       display: block;
       color:black;
       text-align:center;
-      padding:25px 25px;
+      padding:10px 10px;
       text-decoration:none;
       font-size:25px;
   }
@@ -38,7 +43,7 @@
   }
 
   .navbar a{
-      margin-left:100px;
+      margin-left:50px;
   }
 
   #home{
@@ -72,20 +77,21 @@
     align-content: center;
     text-align: center;
     height: auto;
-    flex-direction: row;
+    /* flex-direction: row; */
     font-family: 'Source Code Pro', monospace;
     background-color: #d9d9d9;
     padding-top:60px;
+    overflow-x: hidden;
   }
 
   #about-background{
-    border:10px gray;
+    border:2px gray;
     border-radius:10px;
     float:left;
     width:50%;
     font-size:20px;
     margin:10px;
-    padding:20px;
+    padding:10px;
     background-color:#8c8c8c;
 
   }
@@ -94,10 +100,10 @@
     border:2px gray;
     border-radius:10px;
     float:right;
-    height:400px;
+    /* height:400px; */
     width:40%;
     font-size:20px;
-    margin:20px;
+    margin:10px;
     background-color: #8c8c8c;
   }
 
@@ -108,7 +114,7 @@
     height:400px;
     width:40%;
     font-size:20px;
-    margin:20px;
+    margin:10px;
     background-color: #8c8c8c;
   }
 
@@ -120,15 +126,16 @@
     color:#0d0d0d;
     font-size:20px;
     padding-top:60px;
+    width:100%;
   }
 
   #project1{
-    flex:40%;
+    
     padding:5px;
   }
 
   #project2{
-    flex:40%;
+    
     padding: 5px;
   }
 
